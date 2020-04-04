@@ -26,7 +26,7 @@ class MyProfil extends StatelessWidget {
                         width: 200,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(100),
-                            image: DecorationImage(image: AssetImage('images/mario.jpg'),
+                            image: DecorationImage(image: AssetImage('images/april.jpeg'),
                                 fit: BoxFit.cover
                             )
                         ),
@@ -43,7 +43,7 @@ class MyProfil extends StatelessWidget {
 
                 children: <Widget>[
                   SizedBox(height: 20),
-                  Text('Mario Martin Da Silva',
+                  Text('Kadek Aprilia Cahyani',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
@@ -56,7 +56,7 @@ class MyProfil extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text('mario@undiksha.ac.id',
+                      Text('aprilia@undiksha.ac.id',
                         style: TextStyle(
                             fontSize: 15,
                             color: Colors.black.withOpacity(0.6)
@@ -94,7 +94,7 @@ class MyProfil extends StatelessWidget {
                                 Icon(Icons.my_location,
                                     color: Colors.blue,
                                     size: 58),
-                                Text('Banyuning',
+                                Text('Banyuasri',
                                   style: TextStyle
                                     (color: Colors.black54,
                                       fontWeight: FontWeight.bold
@@ -118,7 +118,7 @@ class MyProfil extends StatelessWidget {
                             child: Column(
                               children: <Widget>[
                                 Icon(Icons.home, color: Colors.orangeAccent, size: 58,),
-                                Text('Bogor', style: TextStyle
+                                Text('Amlapura', style: TextStyle
                                   (color: Colors.black54,
                                     fontWeight: FontWeight.bold
                                 ),
@@ -153,7 +153,7 @@ class MyProfil extends StatelessWidget {
                             child: Column(
                               children: <Widget>[
                                 Icon(Icons.music_note,color: Colors.purple, size: 58,),
-                                Text('EDM', style: TextStyle
+                                Text('Pop', style: TextStyle
                                   (color: Colors.black54,
                                     fontWeight: FontWeight.bold
                                 ),
